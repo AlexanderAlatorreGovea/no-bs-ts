@@ -40,6 +40,7 @@
   myDB.set("foo", 23);
   console.log(myDB.get("foo"));
 
+  
   const myDB2 = new PersistentMemoryDB<number, string>();
   myDB2.restoreFromString(saved);
   console.log(myDB2.get("foo"));
