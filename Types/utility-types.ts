@@ -1,3 +1,4 @@
+
 interface MyUser {
   name: string;
   id: number;
